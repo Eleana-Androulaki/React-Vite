@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+.pnp/
+.pnp.js
+
+# Vite build output
+dist/
+
+# Editor files
+.vscode/
+# Logs
+pnpm-debug.log*
+
+# Environment variables
+.env*
+
+# TypeScript cache
+*.tsbuildinfo
+
+# pnpm-specific files
+.pnpm-store/
+.pnpm-debug.log*
+
+# Vitest coverage
+coverage/
+
+# Lint cache
+.eslintcache

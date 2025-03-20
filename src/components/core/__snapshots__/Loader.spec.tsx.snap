@@ -1,0 +1,75 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Loader Component > matches snapshot when default props are used (loading is true) 1`] = `
+<div>
+  <div
+    class="w-full h-full fixed pointer-events-auto z-[100] MuiBox-root css-1baulvz"
+  >
+    <div
+      class="w-full h-full bg-black opacity-70"
+    />
+    <div
+      class="MuiBox-root css-pjnxve"
+      style="transform: translate(-50%, -50%);"
+    >
+      <span
+        class="MuiCircularProgress-root MuiCircularProgress-indeterminate MuiCircularProgress-colorPrimary css-1wxecgq-MuiCircularProgress-root"
+        role="progressbar"
+        style="width: 40px; height: 40px;"
+      >
+        <svg
+          class="MuiCircularProgress-svg css-54pwck-MuiCircularProgress-svg"
+          viewBox="22 22 44 44"
+        >
+          <circle
+            class="MuiCircularProgress-circle MuiCircularProgress-circleIndeterminate css-19t5dcl-MuiCircularProgress-circle"
+            cx="44"
+            cy="44"
+            fill="none"
+            r="20.2"
+            stroke-width="3.6"
+          />
+        </svg>
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Loader Component > matches snapshot when loading is false (null output) 1`] = `<div />`;
+
+exports[`Loader Component > matches snapshot when loading is true 1`] = `
+<div>
+  <div
+    class="w-full h-full fixed pointer-events-auto z-[100] MuiBox-root css-1baulvz"
+  >
+    <div
+      class="w-full h-full bg-black opacity-70"
+    />
+    <div
+      class="MuiBox-root css-pjnxve"
+      style="transform: translate(-50%, -50%);"
+    >
+      <span
+        class="MuiCircularProgress-root MuiCircularProgress-indeterminate MuiCircularProgress-colorPrimary css-1wxecgq-MuiCircularProgress-root"
+        role="progressbar"
+        style="width: 40px; height: 40px;"
+      >
+        <svg
+          class="MuiCircularProgress-svg css-54pwck-MuiCircularProgress-svg"
+          viewBox="22 22 44 44"
+        >
+          <circle
+            class="MuiCircularProgress-circle MuiCircularProgress-circleIndeterminate css-19t5dcl-MuiCircularProgress-circle"
+            cx="44"
+            cy="44"
+            fill="none"
+            r="20.2"
+            stroke-width="3.6"
+          />
+        </svg>
+      </span>
+    </div>
+  </div>
+</div>
+`;
