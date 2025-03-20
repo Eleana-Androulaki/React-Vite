@@ -15,8 +15,8 @@ Make sure you have the following tools installed on your system:
 Clone this repository and navigate into the project directory:
 
 ```bash
-git clone <repo-url>
-cd <project-directory>
+git clone https://github.com/Eleana-Androulaki/React-Vite.git
+cd React-Vite
 ```
 
 Install dependencies:
